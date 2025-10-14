@@ -1,5 +1,5 @@
 # GfG_October_Solved - Optimized Approaches
-This repository contains solution to all the GFG Problems for October 2024.
+This repository contains solution to all the GFG Problems for October 2025.
 You will find only the solution part of the problem. The remaining driver code is same as given in the question.
 
 ## Key Objectives:
@@ -11,9 +11,9 @@ Whether you're just starting out or an experienced coder, let's learn and improv
 
 Feel free to contribute, share your solutions, or ask questions!
 
-## Hacktoberfest-2K24 Special
+## Hacktoberfest-2K25 Special
 
-This repository is also a part of **Hacktoberfest 2024**! 🎉 We encourage both beginners and experienced coders to participate. This repo is supposed to help those who has little knowledge about the `Hacktoberfest` and interested to participate. Whether you’re just getting started with open-source or a seasoned contributor, this repo is a great place to learn and practice:
+This repository is also a part of **Hacktoberfest 2025**! 🎉 We encourage both beginners and experienced coders to participate. This repo is supposed to help those who has little knowledge about the `Hacktoberfest` and interested to participate. Whether you’re just getting started with open-source or a seasoned contributor, this repo is a great place to learn and practice:
 
 - **Contribute solutions** to daily Gfg problems.
 - **Understand Git and GitHub** workflows.
