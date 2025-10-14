@@ -1,25 +1,25 @@
 class Solution
 {
-    static HashMap<Node,Integer> dp=new HashMap<>();
+    static HashMap<Node,Integer> hashMap =new HashMap<>();
     static int getMaxSum(Node root)
     {
         if(root==null){
             return 0;
         }
-        if(dp.containsKey(root)){
-            return dp.get(root);
+        if(hashMap.containsKey(root)){
+            return hashMap.get(root);
         }
-        int inc=root.data;
+        int counter = root.data;
         if(root.left!=null){
-            inc+=getMaxSum(root.left.left);
-            inc+=getMaxSum(root.left.right);
+            counter += getMaxSum(root.left.left);
+            counter += getMaxSum(root.left.right);
         }
         if(root.right!=null){
-            inc+=getMaxSum(root.right.left);
-            inc+=getMaxSum(root.right.right);
+            counter += getMaxSum(root.right.left);
+            counter += getMaxSum(root.right.right);
         }
-        int exc=getMaxSum(root.left)+getMaxSum(root.right);
-        dp.put(root,Math.max(inc,exc));
-        return dp.get(root);
+        int out = getMaxSum(root.left)+getMaxSum(root.right);
+        hashMap.put(root,Math.max(counter, out));
+        return hashMap.get(root);
     }
 }
